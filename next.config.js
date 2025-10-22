@@ -31,7 +31,7 @@ const nextConfig = {
     ],
   },
 
-  // ⚠️ Removed 'output: export' to enable Server Actions
+  // ⚠️ Removed 'output: export' to enable Server Actions for deployment
 };
 
 module.exports = nextConfig;
