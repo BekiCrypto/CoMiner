@@ -19,6 +19,30 @@
       "imageHint": "Africa globe"
     },
     {
+      "id": "service-consultancy-engineering",
+      "description": "Geological map with engineering tools.",
+      "imageUrl": "https://images.unsplash.com/photo-1549921296-58b924297a7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5pbmclMjBDb25zdWx0YW5jeSUyMCUyNiUyMEVuZ2luZWVyaW5nfGVufDB8fHx8MTc2MTk0MzkzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "geological map"
+    },
+    {
+      "id": "service-investment-support",
+      "description": "Financial charts and graphs over a mining background.",
+      "imageUrl": "https://images.unsplash.com/photo-1624953901718-e21e7a43aa87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5pbmclMjBDb25zdWx0YW5jeSUyMCUyNiUyMEVuZ2luZWVyaW5nfGVufDB8fHx8MTc2MTk0MzkzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "financial charts"
+    },
+    {
+      "id": "service-gemstone-trade",
+      "description": "Polished gemstones being inspected.",
+      "imageUrl": "https://images.unsplash.com/photo-1599653372297-7f041b3695d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5pbmclMjBDb25zdWx0YW5jeSUyMCUyNiUyMEVuZ2luZWVyaW5nfGVufDB8fHx8MTc2MTk0MzkzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "polished gemstones"
+    },
+    {
+      "id": "service-digital-transformation",
+      "description": "Futuristic digital interface showing mining data.",
+      "imageUrl": "https://images.unsplash.com/photo-1555864424-46b5f5f623a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxNaW5pbmclMjBDb25zdWx0YW5jeSUyMCUyNiUyMEVuZ2luZWVyaW5nfGVufDB8fHx8MTc2MTk0MzkzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital interface"
+    },
+    {
       "id": "product-precious-gems",
       "description": "A collection of colorful precious gems like emeralds, sapphires, and rubies.",
       "imageUrl": "https://images.unsplash.com/photo-1667419941709-7db68fe7828f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcmVjaW91cyUyMGdlbXN8ZW58MHx8fHwxNzYxMTI2Nzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",

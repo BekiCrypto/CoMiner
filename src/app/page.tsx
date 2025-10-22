@@ -25,7 +25,14 @@ export default function Home() {
       <main className="flex-1">
         <Hero data={siteData.hero} image={getImage('hero-background')} />
         <About data={siteData.about} image={getImage('about-image')} />
-        <Services data={siteData.services} />
+        <Services data={siteData.services} images={
+          {
+            'mining-consultancy-&-engineering': getImage('service-consultancy-engineering'),
+            'investment-&-lender-support': getImage('service-investment-support'),
+            'gemstone-&-mineral-trade': getImage('service-gemstone-trade'),
+            'digital-transformation': getImage('service-digital-transformation'),
+          }
+        } />
         <Products data={siteData.products} images={
           {
             'precious-gems': getImage('product-precious-gems'),
