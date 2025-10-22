@@ -1,4 +1,3 @@
-
 'use client';
 
 import type { SiteData } from '@/lib/data';
