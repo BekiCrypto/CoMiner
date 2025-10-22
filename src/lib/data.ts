@@ -1,6 +1,7 @@
+
 export const siteData = {
   brand: {
-    name: "CoMiner Business Group PLC",
+    name: "CoMiner Business Group",
     tagline: "Redefining Mining Excellence in Africa"
   },
   navigation: [
@@ -18,7 +19,7 @@ export const siteData = {
   },
   about: {
     title: "About CoMiner Business Group",
-    overview: "CoMiner Business Group PLC is a multidisciplinary and visionary mining and minerals enterprise legally registered in Ethiopia. We serve as a bridge between Africa’s resource base and global markets, promoting transparent trade, ethical sourcing, and sustainable value addition.",
+    overview: "CoMiner Business Group is a multidisciplinary and visionary mining and minerals enterprise legally registered in Ethiopia. We serve as a bridge between Africa’s resource base and global markets, promoting transparent trade, ethical sourcing, and sustainable value addition.",
     vision: "To be the preferred solution provider for mining and mining-related activities in Africa — recognized for integrity, innovation, and sustainable development.",
     mission: "To provide innovative, professional, and multidisciplinary services that support all aspects of mine development — exceeding our clients’ expectations through dedicated human capital and transformative partnerships.",
     values: [
@@ -164,7 +165,7 @@ export const siteData = {
       { name: "LinkedIn", href: "#" },
       { name: "Twitter", href: "#" },
     ],
-    copyright: `© ${new Date().getFullYear()} CoMiner Business Group PLC. All rights reserved.`,
+    copyright: `© ${new Date().getFullYear()} CoMiner Business Group. All rights reserved.`,
   }
 };
 
