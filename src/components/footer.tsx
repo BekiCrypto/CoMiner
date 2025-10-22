@@ -1,5 +1,7 @@
 import type { SiteData } from '@/lib/data';
+import type { ImagePlaceholder } from '@/lib/placeholder-images';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Linkedin, Twitter, Gem } from 'lucide-react';
 
@@ -10,16 +12,29 @@ const iconMap = {
 
 type FooterProps = {
   data: SiteData['footer'];
+  logoImage?: ImagePlaceholder;
 };
 
-export default function Footer({ data }: FooterProps) {
+export default function Footer({ data, logoImage }: FooterProps) {
   return (
     <footer className="bg-muted text-muted-foreground">
       <div className="container mx-auto px-4 py-8 md:px-6">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <div className="flex items-center gap-2">
-            <Gem className="h-6 w-6 text-primary" />
-            <span className="text-sm font-semibold text-foreground">CoMiner Business Group</span>
+            {logoImage ? (
+              <Image
+                src={logoImage.imageUrl}
+                alt={logoImage.description}
+                width={50}
+                height={12}
+                data-ai-hint={logoImage.imageHint}
+              />
+            ) : (
+              <>
+                <Gem className="h-6 w-6 text-primary" />
+                <span className="font-bold">CoMiner Business Group</span>
+              </>
+            )}
           </div>
           <div className="flex gap-2">
             {data.socials.map((social) => {

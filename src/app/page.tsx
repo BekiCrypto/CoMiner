@@ -43,7 +43,7 @@ export default function Home() {
         <Sustainability data={siteData.sustainability} image={getImage('sustainability-image')} />
         <Contact data={siteData.contact} />
       </main>
-      <Footer data={siteData.footer} />
+      <Footer data={siteData.footer} logoImage={getImage('brand-logo')} />
       <AIContentEditor siteData={siteData} />
     </div>
   );
