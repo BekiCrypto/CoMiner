@@ -1,6 +1,16 @@
+
+'use client';
+
 import type { SiteData } from '@/lib/data';
 import type { ImagePlaceholder } from '@/lib/placeholder-images';
 import Image from 'next/image';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from '@/components/ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
+import React from 'react';
 
 type PartnershipsProps = {
   data: SiteData['partnerships'];
@@ -8,6 +18,13 @@ type PartnershipsProps = {
 };
 
 export default function Partnerships({ data, images }: PartnershipsProps) {
+  const plugin = React.useRef(
+    Autoplay({ delay: 2000, stopOnInteraction: true, playOnInit: true })
+  );
+
+  // We duplicate the logos to create a seamless loop
+  const extendedImages = [...images, ...images];
+
   return (
     <section id="partnerships" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
       <div className="container mx-auto px-4 md:px-6">
@@ -19,26 +36,40 @@ export default function Partnerships({ data, images }: PartnershipsProps) {
             </p>
           </div>
         </div>
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-8 py-12">
-          {data.partners.map((partner, index) => {
-            const image = images[index];
-            return (
-              <div key={partner.name} className="flex justify-center">
-                {image ? (
-                  <Image
-                    src={image.imageUrl}
-                    alt={image.description}
-                    width={200}
-                    height={100}
-                    className="h-auto w-40 object-contain"
-                    data-ai-hint={image.imageHint}
-                  />
-                ) : (
-                  <span className="text-lg font-semibold">{partner.name}</span>
-                )}
-              </div>
-            );
-          })}
+        <div className="py-12">
+          <Carousel
+            plugins={[plugin.current]}
+            className="w-full"
+            opts={{
+              align: 'start',
+              loop: true,
+            }}
+            onMouseEnter={plugin.current.stop}
+            onMouseLeave={plugin.current.reset}
+          >
+            <CarouselContent>
+              {extendedImages.map((image, index) => (
+                <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/5">
+                  <div className="p-4 flex justify-center items-center h-full">
+                    {image ? (
+                      <Image
+                        src={image.imageUrl}
+                        alt={image.description}
+                        width={160}
+                        height={80}
+                        className="h-auto w-40 object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        data-ai-hint={image.imageHint}
+                      />
+                    ) : (
+                      <div className="w-40 h-20 bg-gray-200 rounded-md flex items-center justify-center">
+                        <span className="text-sm font-semibold text-muted-foreground">Logo</span>
+                      </div>
+                    )}
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+          </Carousel>
         </div>
       </div>
     </section>

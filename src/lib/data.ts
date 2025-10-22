@@ -98,6 +98,12 @@ export const siteData = {
     description: "CoMiner builds alliances with international companies, investors, and governments to strengthen Africa’s mineral economy. Our partnership framework includes ethical global trade, joint venture investments, technology transfer, and co-branded marketing.",
     partners: [
       { name: "New Mirza Gems & Minerals International (Pakistan)" },
+      { name: "De Beers" },
+      { name: "Rio Tinto" },
+      { name: "Swarovski" },
+      { name: "Alrosa" },
+      { name: "Gemfields" },
+      { name: "BHP" },
     ]
   },
   team: {
