@@ -1,15 +1,18 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+
+  // ✅ Allow TypeScript and ESLint to pass even if warnings exist
   typescript: {
     ignoreBuildErrors: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
+
+  // ✅ Optimize image loading and allow remote sources
   images: {
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -31,7 +34,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  output: 'export',
+
+  // ⚠️ Removed 'output: export' to enable Server Actions
+  // and allow Vercel to use its serverless runtime.
 };
 
 export default nextConfig;
