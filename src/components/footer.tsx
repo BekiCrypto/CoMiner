@@ -25,8 +25,8 @@ export default function Footer({ data, logoImage }: FooterProps) {
               <Image
                 src={logoImage.imageUrl}
                 alt={logoImage.description}
-                width={50}
-                height={12}
+                width={150}
+                height={36}
                 data-ai-hint={logoImage.imageHint}
               />
             ) : (
