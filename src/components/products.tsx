@@ -25,14 +25,13 @@ export default function Products({ data, images }: ProductsProps) {
             const imageKey = product.name.toLowerCase().replace(/ /g, '-');
             const image = images[imageKey];
             return (
-              <Card key={product.name} className="overflow-hidden">
+              <Card key={product.name} className="overflow-hidden flex flex-col">
                 {image && (
-                  <div className="aspect-w-3 aspect-h-2">
+                  <div className="relative w-full aspect-square">
                     <Image
                       src={image.imageUrl}
                       alt={image.description}
-                      width={600}
-                      height={400}
+                      fill
                       className="object-cover"
                       data-ai-hint={image.imageHint}
                     />
@@ -41,7 +40,7 @@ export default function Products({ data, images }: ProductsProps) {
                 <CardHeader>
                   <CardTitle>{product.name}</CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="flex-grow">
                   <p className="text-sm text-muted-foreground">{product.description}</p>
                 </CardContent>
               </Card>
