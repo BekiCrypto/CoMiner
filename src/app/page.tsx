@@ -7,7 +7,6 @@ import Products from '@/components/products';
 import Partnerships from '@/components/partnerships';
 import Team from '@/components/team';
 import Sustainability from '@/components/sustainability';
-import Projects from '@/components/projects';
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
 import AIContentEditor from '@/components/ai-content-editor';
@@ -29,10 +28,10 @@ export default function Home() {
         <Services data={siteData.services} />
         <Products data={siteData.products} images={
           {
-            gold: getImage('product-gold'),
-            copper: getImage('product-copper'),
-            lithium: getImage('product-lithium'),
-            diamonds: getImage('product-diamonds'),
+            'precious-gems': getImage('product-precious-gems'),
+            'semi-precious-gems': getImage('product-semi-precious-gems'),
+            'metallic-minerals': getImage('product-metallic-minerals'),
+            'industrial-minerals': getImage('product-industrial-minerals'),
           }
         } />
         <Partnerships data={siteData.partnerships} images={
@@ -42,9 +41,6 @@ export default function Home() {
           siteData.team.members.map(m => getImage(`team-${m.name.toLowerCase().replace(/ /g, '-')}`))
         } />
         <Sustainability data={siteData.sustainability} image={getImage('sustainability-image')} />
-        <Projects data={siteData.projects} images={
-          siteData.projects.items.map(p => getImage(`project-${p.title.toLowerCase().replace(/ /g, '-')}`))
-        } />
         <Contact data={siteData.contact} />
       </main>
       <Footer data={siteData.footer} />

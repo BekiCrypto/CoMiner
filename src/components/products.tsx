@@ -22,7 +22,8 @@ export default function Products({ data, images }: ProductsProps) {
         </div>
         <div className="mx-auto grid max-w-5xl items-stretch gap-6 py-12 sm:grid-cols-2 lg:grid-cols-4">
           {data.items.map((product) => {
-            const image = images[product.name.toLowerCase()];
+            const imageKey = product.name.toLowerCase().replace(/ /g, '-');
+            const image = images[imageKey];
             return (
               <Card key={product.name} className="overflow-hidden">
                 {image && (

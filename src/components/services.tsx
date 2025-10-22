@@ -1,12 +1,12 @@
 import type { SiteData } from '@/lib/data';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Mountain, Hammer, FlaskConical, Truck } from 'lucide-react';
+import { Mountain, Landmark, Gem, Bot } from 'lucide-react';
 
 const iconMap = {
   Mountain,
-  Hammer,
-  FlaskConical,
-  Truck,
+  Landmark,
+  Gem,
+  Bot,
 };
 
 type ServicesProps = {

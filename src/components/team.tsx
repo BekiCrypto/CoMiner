@@ -21,18 +21,20 @@ export default function Team({ data, images }: TeamProps) {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-8 py-12 sm:grid-cols-1 md:grid-cols-3">
+        <div className="mx-auto grid grid-cols-1 items-start gap-8 py-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {data.members.map((member, index) => {
             const image = images[index];
             return (
               <Card key={member.name} className="h-full">
                 <CardHeader className="items-center text-center">
                   <Avatar className="h-24 w-24">
-                    {image && (
+                    {image ? (
                       <>
                         <AvatarImage src={image.imageUrl} alt={image.description} data-ai-hint={image.imageHint} />
                         <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
                       </>
+                    ) : (
+                      <AvatarFallback>{member.name.charAt(0)}</AvatarFallback>
                     )}
                   </Avatar>
                   <div className="grid gap-0.5 pt-2">

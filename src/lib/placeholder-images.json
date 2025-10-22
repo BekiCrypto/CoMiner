@@ -3,104 +3,86 @@
     {
       "id": "brand-logo",
       "description": "CoMiner Business Group company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1630853141912-56e04572079f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtaW5pbWFsaXN0JTIwbG9nb3xlbnwwfHx8fDE3NjEwNDU1MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "minimalist logo"
+      "imageUrl": "https://images.unsplash.com/photo-1687523327554-fa9f50423489?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEwMjIyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
     },
     {
       "id": "hero-background",
       "description": "A vast, modern mining operation at sunrise",
-      "imageUrl": "https://images.unsplash.com/photo-1718818779943-10a6941bd70b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWluaW5nJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc2MTEyNDE2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1731453396824-999917af49ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtaW5pbmclMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzYxMTI0MTYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "mining landscape"
     },
     {
       "id": "about-image",
-      "description": "Engineers collaborating over a blueprint",
-      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjEwNzc2OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "team collaboration"
+      "description": "A view of the earth from space, focusing on Africa, with digital overlays suggesting data and connectivity.",
+      "imageUrl": "https://images.unsplash.com/photo-1654124803531-16a773af98c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxBZnJpY2ElMjBnbG9iZXxlbnwwfHx8fDE3NjExMjY3OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Africa globe"
     },
     {
-      "id": "product-gold",
-      "description": "Shiny gold bars",
-      "imageUrl": "https://images.unsplash.com/photo-1643656351603-39d13c8826d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnb2xkJTIwYmFyc3xlbnwwfHx8fDE3NjEwOTc2Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "gold bars"
+      "id": "product-precious-gems",
+      "description": "A collection of colorful precious gems like emeralds, sapphires, and rubies.",
+      "imageUrl": "https://images.unsplash.com/photo-1667419941709-7db68fe7828f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcmVjaW91cyUyMGdlbXN8ZW58MHx8fHwxNzYxMTI2Nzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "precious gems"
     },
     {
-      "id": "product-copper",
-      "description": "Rolls of copper wire",
-      "imageUrl": "https://images.unsplash.com/photo-1678119895596-411628b1f6be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3BwZXIlMjB3aXJlfGVufDB8fHx8MTc2MTAzNjQwNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "copper wire"
+      "id": "product-semi-precious-gems",
+      "description": "A variety of semi-precious stones like tourmaline and aquamarine.",
+      "imageUrl": "https://images.unsplash.com/photo-1704750660778-db55114fa0fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0b3VybWFsaW5lJTIwYXF1YW1hcmluZXxlbnwwfHx8fDE3NjExMjY3OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tourmaline aquamarine"
     },
     {
-      "id": "product-lithium",
-      "description": "Raw lithium mineral",
-      "imageUrl": "https://images.unsplash.com/photo-1709490667982-f9ce064042da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsaXRoaXVtJTIwbWluZXJhbHxlbnwwfHx8fDE3NjExMjQxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "lithium mineral"
+      "id": "product-metallic-minerals",
+      "description": "Raw forms of copper, lithium, and tantalite ore.",
+      "imageUrl": "https://images.unsplash.com/photo-1616022418141-3b928810549f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb3BwZXIlMjBsaXRoaXVtfGVufDB8fHx8MTc2MTEyNjc5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "copper lithium"
     },
     {
-      "id": "product-diamonds",
-      "description": "A collection of rough diamonds",
-      "imageUrl": "https://images.unsplash.com/photo-1673031288723-f198cd527b97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyb3VnaCUyMGRpYW1vbmRzfGVufDB8fHx8MTc2MTEyNDE1OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "rough diamonds"
+      "id": "product-industrial-minerals",
+      "description": "Chunks of quartz and feldspar minerals.",
+      "imageUrl": "https://images.unsplash.com/photo-1603062826804-97cb5bbb9110?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxxdWFydHolMjBmZWxkc3BhcnxlbnwwfHx8fDE3NjExMjY3OTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quartz feldspar"
     },
     {
-      "id": "partner-geocore-analytics",
-      "description": "GeoCore Analytics company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1661347998648-79ad2d81bf26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVjaCUyMGxvZ298ZW58MHx8fHwxNzYxMDYxNTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tech logo"
+      "id": "partner-new-mirza-gems-&-minerals-international-(pakistan)",
+      "description": "New Mirza Gems & Minerals International company logo",
+      "imageUrl": "https://images.unsplash.com/photo-1627843563095-f6e94676cfe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tcGFueSUyMGxvZ298ZW58MHx8fHwxNzYxMDIyMjkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
     },
     {
-      "id": "partner-terralogistics",
-      "description": "TerraLogistics company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1559497056-fe4dab665446?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsb2dpc3RpY3MlMjBsb2dvfGVufDB8fHx8MTc2MTEyNDE1OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "logistics logo"
+      "id": "team-bikila-daba",
+      "description": "Portrait of Bikila Daba",
+      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEwMTgyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     },
     {
-      "id": "partner-summit-heavy-machinery",
-      "description": "Summit Heavy Machinery company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1565432029859-26cfe135a3e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpbmR1c3RyaWFsJTIwbG9nb3xlbnwwfHx8fDE3NjExMjQxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "industrial logo"
+      "id": "team-tesfaye-megersa",
+      "description": "Portrait of Tesfaye Megersa",
+      "imageUrl": "https://images.unsplash.com/photo-1607031542107-f6f46b5d54e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEwMTgyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     },
     {
-      "id": "team-jane-doe",
-      "description": "Portrait of Jane Doe, CEO",
-      "imageUrl": "https://images.unsplash.com/photo-1581065178047-8ee15951ede6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEwNTc1NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional portrait"
+      "id": "team-hanna-mulugeta",
+      "description": "Portrait of Hanna Mulugeta",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MTA1NjI0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
     },
     {
-      "id": "team-john-smith",
-      "description": "Portrait of John Smith, Chief Geologist",
-      "imageUrl": "https://images.unsplash.com/photo-1595211877493-41a4e5f236b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEwNTc1NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional portrait"
+      "id": "team-zewdu-tadesse",
+      "description": "Portrait of Zewdu Tadesse",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYxMDE4MjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     },
     {
-      "id": "team-emily-white",
-      "description": "Portrait of Emily White, Head of Sustainability",
-      "imageUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEwNTc1NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional portrait"
+      "id": "team-zeryihun-hailu",
+      "description": "Portrait of Zeryihun Hailu",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEwMTgyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     },
     {
       "id": "sustainability-image",
-      "description": "Hands holding a green seedling in a mining area",
-      "imageUrl": "https://images.unsplash.com/photo-1758577232365-915ed1bd02cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZWZvcmVzdGF0aW9uJTIwZW52aXJvbm1lbnR8ZW58MHx8fHwxNzYxMTI0MTYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "reforestation environment"
-    },
-    {
-      "id": "project-kalahari-diamond-mine",
-      "description": "Aerial view of Kalahari Diamond Mine",
-      "imageUrl": "https://images.unsplash.com/photo-1698163019108-2c823439d89f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkaWFtb25kJTIwbWluZXxlbnwwfHx8fDE3NjExMjQxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "diamond mine"
-    },
-    {
-      "id": "project-andean-lithium-project",
-      "description": "Lithium evaporation ponds in the Andes",
-      "imageUrl": "https://images.unsplash.com/photo-1748810235255-18122496da50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsaXRoaXVtJTIwcG9uZHN8ZW58MHx8fHwxNzYxMTI0MTU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "lithium ponds"
-    },
-    {
-      "id": "project-congo-copper-belt",
-      "description": "Copper extraction facility in the Congo",
-      "imageUrl": "https://images.unsplash.com/photo-1706332285596-810bed361a8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29wcGVyJTIwbWluZXxlbnwwfHx8fDE3NjExMjQxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "copper mine"
+      "description": "People in a classroom setting learning about geology.",
+      "imageUrl": "https://images.unsplash.com/photo-1758691736664-0b83e4f1215e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGFzc3Jvb20lMjB0cmFpbmluZ3xlbnwwfHx8fDE3NjEwNTEwNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "classroom training"
     }
   ]
 }
