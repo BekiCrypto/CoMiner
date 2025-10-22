@@ -8,8 +8,8 @@
     },
     {
       "id": "hero-background",
-      "description": "A vast, modern mining operation at sunrise",
-      "imageUrl": "https://images.unsplash.com/photo-1731453396824-999917af49ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtaW5pbmclMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzYxMTI0MTYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A vast, modern mining operation",
+      "imageUrl": "/gettyimages-2122119137-2048x2048.jpg",
       "imageHint": "mining landscape"
     },
     {
