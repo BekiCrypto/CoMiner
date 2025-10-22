@@ -97,14 +97,16 @@ export const siteData = {
     title: "Strategic Partnership & Collaboration",
     description: "CoMiner builds alliances with international companies, investors, and governments to strengthen Africa’s mineral economy. Our partnership framework includes ethical global trade, joint venture investments, technology transfer, and co-branded marketing.",
     partners: [
-      { name: "Swarovski" },
-      { name: "De Beers" },
-      { name: "Rio Tinto" },
-      { name: "Alrosa" },
+      { name: "De Beers Group" },
+      { name: "ALROSA" },
       { name: "Gemfields" },
-      { name: "BHP" },
-      { name: "GIA" },
-      { name: "Pandora" },
+      { name: "Rio Tinto" },
+      { name: "Tiffany & Co." },
+      { name: "Cartier" },
+      { name: "Bulgari" },
+      { name: "Swarovski" },
+      { name: "Chopard" },
+      { name: "Van Cleef & Arpels" }
     ]
   },
   team: {
