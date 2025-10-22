@@ -1,7 +1,6 @@
 'use client';
 
 import type { SiteData } from '@/lib/data';
-import { useFormState } from 'react-dom';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
@@ -30,7 +29,7 @@ type ContactProps = {
 };
 
 export default function Contact({ data }: ContactProps) {
-  const [state, formAction] = useFormState(submitContactForm, { success: false, message: '' });
+  const [state, formAction] = React.useActionState(submitContactForm, { success: false, message: '' });
   const { toast } = useToast();
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
