@@ -2,11 +2,19 @@ import type { SiteData } from '@/lib/data';
 import type { ImagePlaceholder } from '@/lib/placeholder-images';
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { BadgeCheck, Goal, Handshake } from 'lucide-react';
+import { Goal, Handshake, ShieldCheck, Briefcase, Users, Lightbulb, Leaf } from 'lucide-react';
 
 type AboutProps = {
   data: SiteData['about'];
   image?: ImagePlaceholder;
+};
+
+const valueIcons: { [key: string]: React.ElementType } = {
+  Integrity: ShieldCheck,
+  Professionalism: Briefcase,
+  Collaboration: Users,
+  Innovation: Lightbulb,
+  Sustainability: Leaf,
 };
 
 export default function About({ data, image }: AboutProps) {
@@ -58,15 +66,18 @@ export default function About({ data, image }: AboutProps) {
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">Our Core Values</h3>
           <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-5">
-            {data.values.map((value) => (
-              <div key={value.name} className="flex flex-col items-center">
-                <div className="bg-accent/10 p-4 rounded-full">
-                  <BadgeCheck className="h-8 w-8 text-accent" />
+            {data.values.map((value) => {
+              const Icon = valueIcons[value.name] || ShieldCheck;
+              return (
+                <div key={value.name} className="flex flex-col items-center">
+                  <div className="bg-accent/10 p-4 rounded-full">
+                    <Icon className="h-8 w-8 text-accent" />
+                  </div>
+                  <h4 className="mt-4 text-lg font-semibold">{value.name}</h4>
+                  <p className="mt-1 text-sm text-center text-muted-foreground">{value.description}</p>
                 </div>
-                <h4 className="mt-4 text-lg font-semibold">{value.name}</h4>
-                <p className="mt-1 text-sm text-center text-muted-foreground">{value.description}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
