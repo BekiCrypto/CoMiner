@@ -9,6 +9,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from '@/components/ui/carousel';
+import { Card } from '@/components/ui/card';
 import Autoplay from 'embla-carousel-autoplay';
 import React from 'react';
 
@@ -49,23 +50,25 @@ export default function Partnerships({ data, images }: PartnershipsProps) {
           >
             <CarouselContent>
               {extendedImages.map((image, index) => (
-                <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/5">
-                  <div className="p-4 flex justify-center items-center h-20">
-                    {image ? (
-                      <div className="relative w-40 h-full">
-                        <Image
-                          src={image.imageUrl}
-                          alt={image.description}
-                          fill
-                          className="object-contain grayscale hover:grayscale-0 transition-all duration-300"
-                          data-ai-hint={image.imageHint}
-                        />
-                      </div>
-                    ) : (
-                      <div className="w-40 h-20 bg-gray-200 rounded-md flex items-center justify-center">
-                        <span className="text-sm font-semibold text-muted-foreground">Logo</span>
-                      </div>
-                    )}
+                <CarouselItem key={index} className="basis-1/2 md:basis-1/3 lg:basis-1/4">
+                  <div className="p-4">
+                    <Card className="flex items-center justify-center p-6 h-40">
+                      {image ? (
+                        <div className="relative w-full h-full">
+                          <Image
+                            src={image.imageUrl}
+                            alt={image.description}
+                            fill
+                            className="object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                            data-ai-hint={image.imageHint}
+                          />
+                        </div>
+                      ) : (
+                        <div className="w-full h-full bg-gray-200 rounded-md flex items-center justify-center">
+                          <span className="text-sm font-semibold text-muted-foreground">Logo</span>
+                        </div>
+                      )}
+                    </Card>
                   </div>
                 </CarouselItem>
               ))}
