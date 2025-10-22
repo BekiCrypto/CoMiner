@@ -56,8 +56,8 @@ export default function Header({ brand, navigation, logoImage }: HeaderProps) {
             <Image
               src={logoImage.imageUrl}
               alt={logoImage.description}
-              width={25}
-              height={6}
+              width={50}
+              height={12}
               data-ai-hint={logoImage.imageHint}
             />
           ) : (
