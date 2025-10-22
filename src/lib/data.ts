@@ -99,8 +99,8 @@ export const siteData = {
     partners: [
       { name: "De Beers Group" },
       { name: "ALROSA" },
-      { name: "Gemfields" },
-      { name: "Rio Tinto" },
+      { name: "Gemfields Group Limited" },
+      { name: "Rio Tinto Group" },
       { name: "Tiffany & Co." },
       { name: "Cartier" },
       { name: "Bulgari" },

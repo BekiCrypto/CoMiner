@@ -55,14 +55,14 @@
       "imageHint": "company logo"
     },
     {
-      "id": "partner-gemfields",
-      "description": "Gemfields company logo",
+      "id": "partner-gemfields-group-limited",
+      "description": "Gemfields Group Limited company logo",
       "imageUrl": "https://images.unsplash.com/photo-1627843563095-f6e94676cfe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tcGFueSUyMGxvZ298ZW58MHx8fHwxNzYxMDIyMjkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "company logo"
     },
     {
-      "id": "partner-rio-tinto",
-      "description": "Rio Tinto company logo",
+      "id": "partner-rio-tinto-group",
+      "description": "Rio Tinto Group company logo",
       "imageUrl": "https://images.unsplash.com/photo-1687523327554-fa9f50423489?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjEwMjIyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "company logo"
     },
