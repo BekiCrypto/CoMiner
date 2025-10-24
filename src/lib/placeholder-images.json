@@ -111,7 +111,7 @@
     {
       "id": "partner-swarovski",
       "description": "Swarovski company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1662947683280-3be5bfc47075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcnlzdGFsJTIwbG9nb3xlbnwwfHx8fDE3NjEyNjg4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1662947683280-3be5bfc47075?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcnlzdGFsJTIwbG9nb3xlbnwwfHx8fDE3NjEyNjg4OTl8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "crystal logo"
     },
     {
@@ -123,18 +123,18 @@
     {
       "id": "partner-van-cleef-&-arpels",
       "description": "Van Cleef & Arpels company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1677890465835-ab8c5c621771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVnYW50JTIwbG9nb3xlbnwwfHx8fDE3NjEyNjg4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1677890465835-ab8c5c621771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbGVnYW50JTIwbG9nb3xlbnwwfHx8fDE3NjEyNjg4OTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "elegant logo"
     },
     {
       "id": "sustainability-image",
-      "description": "People in a classroom setting learning about geology.",
-      "imageUrl": "https://images.unsplash.com/photo-1758691736664-0b83e4f1215e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGFzc3Jvb20lMjB0cmFpbmluZ3xlbnwwfHx8fDE3NjEwNTEwNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "classroom training"
+      "description": "A close-up shot of a hand holding a small green plant sprouting from the earth, symbolizing growth and environmental care.",
+      "imageUrl": "/gettyimages-2156353758-2048x2048.jpg",
+      "imageHint": "environmental growth"
     },
     {
       "id": "team-image",
-      "description": "A diverse team of professionals in a meeting, some with Ethiopian features.",
+      "description": "A focused team of diverse professionals, including individuals with Ethiopian features, collaborating in a modern office.",
       "imageUrl": "/gettyimages-2208930031-2048x2048.jpg",
       "imageHint": "diverse business"
     }
