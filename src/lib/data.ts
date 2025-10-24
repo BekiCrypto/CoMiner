@@ -111,34 +111,8 @@ export const siteData = {
   },
   team: {
     title: "Leadership & Team",
-    description: "The collaborative leadership and integrated expertise of CoMiner’s team position us as a vertically integrated, forward-looking mining and mineral enterprise.",
-    members: [
-      {
-        name: "Bikila Daba",
-        role: "General Manager & Co-Founder",
-        bio: "A seasoned tech entrepreneur and strategic consultant with over 20 years of experience. Founder of Bikila Techno Center and the driving force behind CoMiner’s strategic direction and innovation."
-      },
-      {
-        name: "Tesfaye Megersa",
-        role: "Engineering Lead & Co-Founder",
-        bio: "Senior geologist and mining engineer with global experience. Expert in mine planning, grade control, and field operations, ensuring CoMiner’s operational excellence."
-      },
-      {
-        name: "Hanna Mulugeta",
-        role: "Principal Attorney, Legal & Regulatory Advisor",
-        bio: "Former Senior Legal Advisor to the Minister of Mines and Petroleum with 16+ years of experience in mining law and investment structuring."
-      },
-      {
-        name: "Zewdu Tadesse",
-        role: "Senior Advisor, Geology & Hydrogeology",
-        bio: "20+ years in mineral exploration and environmental management. Former Director at Oromia Mineral Development Authority."
-      },
-      {
-        name: "Zeryihun Hailu",
-        role: "Senior Mineral Engineer",
-        bio: "18+ years in mineral exploration, resource estimation, and processing. Advocate for global mining standards and sustainability."
-      }
-    ]
+    description: "Driven by innovation, technical excellence, and strategic insight, CoMiner’s leadership team unites seasoned professionals from the fields of geology, mining engineering, law, and digital technology. Together, they bring decades of collective experience spanning government, private enterprise, and international partnerships.\n\nThis blend of visionary leadership and deep technical expertise enables CoMiner to deliver world-class solutions — from exploration to export — while upholding the highest standards of professionalism, sustainability, and impact across Africa’s mineral sector.",
+    members: []
   },
   sustainability: {
     title: "Commitment to Responsible Growth",
