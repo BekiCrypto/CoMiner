@@ -26,7 +26,7 @@ export default function Team({ data, image }: TeamProps) {
                   alt={image.description}
                   width={1200}
                   height={800}
-                  className="rounded-xl shadow-lg"
+                  className="rounded-xl shadow-lg w-full h-auto max-w-4xl"
                   data-ai-hint={image.imageHint}
                 />
               </div>
