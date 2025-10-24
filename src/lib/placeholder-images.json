@@ -131,6 +131,12 @@
       "description": "People in a classroom setting learning about geology.",
       "imageUrl": "https://images.unsplash.com/photo-1758691736664-0b83e4f1215e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbGFzc3Jvb20lMjB0cmFpbmluZ3xlbnwwfHx8fDE3NjEwNTEwNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "classroom training"
+    },
+    {
+      "id": "team-image",
+      "description": "A diverse team of professionals in a meeting, some with Ethiopian features.",
+      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjB0ZWFtfGVufDB8fHx8MTc2MTI0NzkzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional team"
     }
   ]
 }

@@ -44,7 +44,7 @@ export default function Home() {
         <Partnerships data={siteData.partnerships} images={
           siteData.partnerships.partners.map(p => getImage(`partner-${p.name.toLowerCase().replace(/ /g, '-')}`))
         } />
-        <Team data={siteData.team} />
+        <Team data={siteData.team} image={getImage('team-image')} />
         <Sustainability data={siteData.sustainability} image={getImage('sustainability-image')} />
         <Contact data={siteData.contact} />
       </main>
