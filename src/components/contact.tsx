@@ -69,24 +69,30 @@ export default function Contact({ data }: ContactProps) {
               </div>
               <div className="flex items-start gap-4">
                 <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-                  {phoneNumbers.map((phone, index) => (
-                    <React.Fragment key={phone}>
-                      <a href={`tel:${phone.trim()}`} className="hover:underline">{phone.trim()}</a>
-                      {index < phoneNumbers.length - 1 && <span className="text-muted-foreground">/</span>}
-                    </React.Fragment>
-                  ))}
+                <div className="flex flex-col">
+                  <span className="font-medium">Mobile and Direct Call</span>
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
+                    {phoneNumbers.map((phone, index) => (
+                      <React.Fragment key={phone}>
+                        <a href={`tel:${phone.trim()}`} className="hover:underline">{phone.trim()}</a>
+                        {index < phoneNumbers.length - 1 && <span className="text-muted-foreground">/</span>}
+                      </React.Fragment>
+                    ))}
+                  </div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <FaWhatsapp className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
-                <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-                  {data.whatsapp.map((wa, index) => (
-                    <React.Fragment key={wa.link}>
-                      <a href={wa.link} target="_blank" rel="noopener noreferrer" className="hover:underline">{wa.display}</a>
-                      {index < data.whatsapp.length - 1 && <span className="text-muted-foreground">|</span>}
-                    </React.Fragment>
-                  ))}
+                <div className="flex flex-col">
+                  <span className="font-medium">WhatsApp</span>
+                  <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+                    {data.whatsapp.map((wa, index) => (
+                      <React.Fragment key={wa.link}>
+                        <a href={wa.link} target="_blank" rel="noopener noreferrer" className="hover:underline">{`Line ${index + 1}`}</a>
+                        {index < data.whatsapp.length - 1 && <span className="text-muted-foreground">|</span>}
+                      </React.Fragment>
+                    ))}
+                  </div>
                 </div>
               </div>
               <div className="flex items-center gap-4">
