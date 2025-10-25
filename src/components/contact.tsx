@@ -50,6 +50,9 @@ export default function Contact({ data }: ContactProps) {
     }
   }, [state, toast, form]);
 
+  // Split phone numbers to create individual tel: links
+  const phoneNumbers = data.phone.split('/');
+
   return (
     <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
       <div className="container mx-auto px-4 md:px-6">
@@ -64,9 +67,16 @@ export default function Contact({ data }: ContactProps) {
                 <Mail className="h-6 w-6 text-primary" />
                 <a href={`mailto:${data.email}`} className="hover:underline">{data.email}</a>
               </div>
-              <div className="flex items-center gap-4">
-                <Phone className="h-6 w-6 text-primary" />
-                <span>{data.phone}</span>
+              <div className="flex items-start gap-4">
+                <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+                  {phoneNumbers.map((phone, index) => (
+                    <React.Fragment key={phone}>
+                      <a href={`tel:${phone.trim()}`} className="hover:underline">{phone.trim()}</a>
+                      {index < phoneNumbers.length - 1 && <span className="text-muted-foreground">/</span>}
+                    </React.Fragment>
+                  ))}
+                </div>
               </div>
               <div className="flex items-start gap-4">
                 <FaWhatsapp className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
