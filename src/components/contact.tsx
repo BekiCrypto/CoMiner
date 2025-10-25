@@ -15,6 +15,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -66,6 +67,17 @@ export default function Contact({ data }: ContactProps) {
               <div className="flex items-center gap-4">
                 <Phone className="h-6 w-6 text-primary" />
                 <span>{data.phone}</span>
+              </div>
+              <div className="flex items-start gap-4">
+                <FaWhatsapp className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+                  {data.whatsapp.map((wa, index) => (
+                    <React.Fragment key={wa.link}>
+                      <a href={wa.link} target="_blank" rel="noopener noreferrer" className="hover:underline">{wa.display}</a>
+                      {index < data.whatsapp.length - 1 && <span className="text-muted-foreground">|</span>}
+                    </React.Fragment>
+                  ))}
+                </div>
               </div>
               <div className="flex items-center gap-4">
                 <MapPin className="h-6 w-6 text-primary" />

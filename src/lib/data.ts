@@ -140,8 +140,18 @@ export const siteData = {
     title: "Get in Touch",
     description: "Have a question or a project proposal? Our team is ready to assist you. Please fill out the form below or contact us directly.",
     address: "Addis Ababa, Ethiopia",
-    phone: "+251 911 300 466 | WhatsApp: +971 5276 63165",
+    phone: "+251 91 152 2390/+251 911 300 466",
     email: "CoMinerBGPLC@gmail.com",
+    whatsapp: [
+      {
+        display: "971527663165",
+        link: "https://wa.me/971527663165"
+      },
+      {
+        display: "251911522390",
+        link: "https://wa.me/251911522390"
+      }
+    ]
   },
   footer: {
     socials: [
