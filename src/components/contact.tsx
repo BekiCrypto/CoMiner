@@ -74,8 +74,8 @@ export default function Contact({ data }: ContactProps) {
                   <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
                     {phoneNumbers.map((phone, index) => (
                       <React.Fragment key={phone}>
-                        <a href={`tel:${phone.trim()}`} className="hover:underline">{phone.trim()}</a>
-                        {index < phoneNumbers.length - 1 && <span className="text-muted-foreground">/</span>}
+                        <a href={`tel:${phone.trim()}`} className="hover:underline">{`Line ${index + 1}`}</a>
+                        {index < phoneNumbers.length - 1 && <span className="text-muted-foreground">|</span>}
                       </React.Fragment>
                     ))}
                   </div>
